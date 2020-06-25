@@ -1,10 +1,12 @@
 Following [Hossein Ahmadi's](https://medium.com/@hossein98.ahmadi) tutorials on [React Hooks](https://medium.com/weekly-webtips/react-hooks-for-beginners-sweet-and-a-little-complex-31a1225bd2f7) and [React's useEffectHook](https://medium.com/javascript-in-plain-english/react-hooks-how-to-use-useeffect-ecea3e90d84f).
 
----
+First tutorial: pretty basic although some good info on how to customize hooks logic.
+
+Second tutorial: Kind of oddly wanders off on setting the `title` value using useEffect() but probably not the worst thing. The author also forgets to mention that you must have [Axios](https://www.npmjs.com/package/axios) installed for the second tutorial to work, but I suppose a decent developer could probably figure that out. Still and all, a decent tutorial on how to use `useEffect()` with Axios, which was a pleasant surprise.
 
 # Create React App Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  Only the following actions are supported:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Only the following actions are supported:
 
 ## Available Scripts
 
