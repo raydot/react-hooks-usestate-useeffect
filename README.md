@@ -1,3 +1,4 @@
+Following [Hossein Ahmadi's](https://medium.com/@hossein98.ahmadi) tutorials on [React Hooks](https://medium.com/weekly-webtips/react-hooks-for-beginners-sweet-and-a-little-complex-31a1225bd2f7) and [React's useEffectHook](https://medium.com/javascript-in-plain-english/react-hooks-how-to-use-useeffect-ecea3e90d84f).
 
 ---
 
