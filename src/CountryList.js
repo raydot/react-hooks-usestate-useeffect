@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import { getItem } from './generalMethods';
+//import axios from 'axios';
 
 export const CountryList = () => {
   const [countries, setCountries] = useState([]);
@@ -7,14 +8,14 @@ export const CountryList = () => {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    axios
-      .get('https://restcountries.eu/rest/v2/all')
+    // This has been refactored into generalMethods.js
+    getItem('https://restcountries.eu/rest/v2/all')
       .then((res) => {
-        setCountries(res.data);
+        setCountries(res);
         setLoad(true);
       })
       .catch((err) => {
-        setError(err.message);
+        setError(err);
         setLoad(true);
       });
   }, []);
